@@ -2,6 +2,31 @@ body{
     background-color: rgb(173, 199, 248);
 }
 img{
-    width: 1000px;
-    height: 1000px;
+    width: 200px;
+    height: 200px;
 }
+input[type="text"] {
+    display: block;       
+    width: 500px;         
+    height: 35px;      
+    padding: 0;            
+    font-size: 20px;       
+    box-sizing: border-box;
+  }
+  .botao-enviar {
+    display: block;    
+    margin: 0 auto;     
+    width: 100%;       
+    max-width: 320px;   
+    padding: 12px;      
+    box-sizing: border-box;
+    background-color: #007BFF;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
